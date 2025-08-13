@@ -1,0 +1,1328 @@
+[
+  {
+    "id": "1",
+    "title": "Introduction to AI",
+    "subtitle": "Learn AI from scratch with real-world examples",
+    "description": "Learn the basics of Artificial Intelligence with practical projects.",
+    "image": "/images/ai-course.jpg",
+    "instructor": "Dr. Jane Smith",
+    "instructorTitle": "Senior Developer & Educator",
+    "instructorRating": 4,
+    "instructorExperience": "With over 10 years of industry experience and 5 years of teaching, Dr. Jane brings real-world expertise to this course.",
+    "duration": "6 weeks",
+    "format": "Pre-recorded",
+    "price": 249,
+    "discountPrice": 199,
+    "rating": 4.9,
+    "reviewCount": 780,
+    "badge": "Best Seller",
+    "category": ["Development"],
+    "subcategory": ["AI", "Machine Learning"],
+    "level": "Beginner",
+    "language": "English",
+    "publishedDate": "2023-01-15",
+    "enrollmentCount": 1200,
+    "studentCount": "1200+",
+    "prerequisites": ["Basic programming knowledge","Python basics"],
+    "certificate": true,
+    "courseUrl": "https://www.youtube.com/embed/j4LH7-31Lq8?si=a0Lu4OSb7zn_nuHS",
+    "curriculum": [
+      {
+        "title": "SQL Basics",
+        "topics": [
+          "Introduction to databases",
+          "SELECT statements",
+          "Filtering, sorting, and aliases"
+        ]
+      },
+      {
+        "title": "Joins and Subqueries",
+        "topics": [
+          "INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN",
+          "Subqueries in SELECT, FROM, WHERE clauses"
+        ]
+      },
+      {
+        "title": "Database Design",
+        "topics": [
+          "Normalization and data modeling",
+          "Primary and foreign keys",
+          "Entity-relationship diagrams"
+        ]
+      }
+    ],
+    "features": [
+      "Lifetime Access",
+      "Online & Self-Paced",
+      "Certificate of Completion"
+    ],
+    "filters": ["isFeatured", "topRated"]
+  },
+{
+  "id": "2",
+  "title": "Web Development Bootcamp",
+  "subtitle": "Master web development from zero to hero",
+  "description": "Build websites and web apps using HTML, CSS, and JavaScript.",
+  "image": "/images/web-development.jpg",
+  "instructor": "Ms. Emily Clark",
+  "instructorTitle": "Full Stack Developer & Instructor",
+  "instructorRating": 4.5,
+  "instructorExperience": "With 8 years in web development and 4 years teaching, Emily delivers practical, hands-on knowledge.",
+  "duration": "10 weeks",
+  "format": "Pre-recorded",
+  "price": 299,
+  "discountPrice": 249,
+  "rating": 4.7,
+  "reviewCount": 640,
+  "badge": "Trending",
+  "category": ["Development"],
+  "subcategory": ["Web Development", "Frontend"],
+  "level": "Beginner",
+  "language": "English",
+  "publishedDate": "2023-03-10",
+  "enrollmentCount": 950,
+  "studentCount": "950+",
+  "prerequisites": ["Basic computer skills"],
+  "certificate": true,
+  "courseUrl": "https://youtu.be/webdev-preview",
+  "curriculum": [
+    {
+      "title": "HTML Basics",
+      "topics": [
+        "HTML structure and elements",
+        "Forms and inputs",
+        "Semantic HTML"
+      ]
+    },
+    {
+      "title": "CSS Fundamentals",
+      "topics": [
+        "Selectors and properties",
+        "Flexbox and Grid layouts",
+        "Responsive design basics"
+      ]
+    },
+    {
+      "title": "JavaScript Essentials",
+      "topics": [
+        "Variables and data types",
+        "Functions and events",
+        "DOM manipulation"
+      ]
+    },
+    {
+      "title": "Advanced JavaScript",
+      "topics": [
+        "ES6 features",
+        "Asynchronous programming",
+        "Working with APIs"
+      ]
+    },
+    {
+      "title": "React Fundamentals",
+      "topics": [
+        "JSX and components",
+        "State and props",
+        "React hooks basics"
+      ]
+    }
+  ],
+  "features": [
+    "Lifetime Access",
+    "Online & Self-Paced",
+    "Certificate of Completion",
+    "Access to Coding Challenges",
+    "Downloadable Resources"
+  ],
+  "filters": ["trending"]
+}
+,
+ {
+  "id": "3",
+  "title": "Data Science with R",
+  "subtitle": "Analyze data and build models using R programming",
+  "description": "Learn data manipulation, visualization, and modeling with the R programming language.",
+  "image": "/images/data-science-r.jpg",
+  "instructor": "Dr. Anna Smith",
+  "instructorTitle": "Data Scientist & Professor",
+  "instructorRating": 4.7,
+  "instructorExperience": "PhD in Data Science with 7 years teaching experience and 10 years industry practice.",
+  "duration": "12 weeks",
+  "format": "Video lectures and projects",
+  "price": 349,
+  "discountPrice": 299,
+  "rating": 4.8,
+  "reviewCount": 850,
+  "badge": "New",
+  "category": ["Data Science"],
+  "subcategory": ["R Programming", "Statistics"],
+  "level": "Intermediate",
+  "language": "English",
+  "publishedDate": "2024-01-20",
+  "enrollmentCount": 700,
+  "studentCount": "700+",
+  "prerequisites": ["Basic R knowledge", "Statistics fundamentals"],
+  "certificate": true,
+  "courseUrl": "https://youtu.be/datascience-r-preview",
+  "curriculum": [
+    {
+      "title": "Introduction to R",
+      "topics": [
+        "R environment setup",
+        "Basic syntax and data types",
+        "Data frames and lists"
+      ]
+    },
+    {
+      "title": "Data Wrangling",
+      "topics": [
+        "Tidyverse basics",
+        "Data cleaning",
+        "Handling missing values"
+      ]
+    },
+    {
+      "title": "Data Visualization",
+      "topics": [
+        "ggplot2 essentials",
+        "Plot customization",
+        "Interactive plots"
+      ]
+    },
+    {
+      "title": "Statistical Modeling",
+      "topics": [
+        "Linear regression",
+        "Logistic regression",
+        "Model evaluation"
+      ]
+    },
+    {
+      "title": "Machine Learning Basics",
+      "topics": [
+        "Classification and clustering",
+        "Decision trees",
+        "Cross-validation"
+      ]
+    }
+  ],
+  "features": [
+    "Hands-on projects",
+    "Downloadable datasets",
+    "Certificate of Completion",
+    "Access to online community",
+    "Regular live Q&A sessions"
+  ],
+  "filters": ["new"]
+}
+,
+{
+  "id": "4",
+  "title": "Digital Marketing Masterclass",
+  "subtitle": "Become a certified digital marketing expert",
+  "description": "Learn all aspects of digital marketing including SEO, social media, content marketing, and analytics to boost your business or career.",
+  "image": "/images/digital-marketing.jpg",
+  "instructor": "Sarah Lee",
+  "instructorTitle": "Digital Marketing Strategist",
+  "instructorRating": 4.9,
+  "instructorExperience": "Over 12 years in digital marketing with extensive experience in SEO and brand strategy.",
+  "duration": "10 weeks",
+  "format": "Video lectures, case studies, and quizzes",
+  "price": 299,
+  "discountPrice": 249,
+  "rating": 4.7,
+  "reviewCount": 1100,
+  "badge": "Top Rated",
+  "category": ["Marketing"],
+  "subcategory": ["Digital Marketing", "SEO"],
+  "level": "Intermediate",
+  "language": "English",
+  "publishedDate": "2023-08-05",
+  "enrollmentCount": 1300,
+  "studentCount": "1300+",
+  "prerequisites": ["Basic understanding of marketing principles"],
+  "certificate": true,
+  "courseUrl": "https://youtu.be/digital-marketing-masterclass-preview",
+  "curriculum": [
+    {
+      "title": "Introduction to Digital Marketing",
+      "topics": [
+        "Overview of digital marketing",
+        "Marketing funnels",
+        "Customer personas"
+      ]
+    },
+    {
+      "title": "SEO Fundamentals",
+      "topics": [
+        "Keyword research",
+        "On-page and off-page SEO",
+        "Link building strategies"
+      ]
+    },
+    {
+      "title": "Content Marketing",
+      "topics": [
+        "Creating engaging content",
+        "Content calendars",
+        "Content promotion"
+      ]
+    },
+    {
+      "title": "Social Media Marketing",
+      "topics": [
+        "Platforms overview",
+        "Ad campaigns",
+        "Community management"
+      ]
+    },
+    {
+      "title": "Analytics and Reporting",
+      "topics": [
+        "Google Analytics basics",
+        "Interpreting data",
+        "Optimizing campaigns"
+      ]
+    }
+  ],
+  "features": [
+    "Lifetime access",
+    "Certificate of completion",
+    "Access on mobile and desktop",
+    "Downloadable marketing templates",
+    "Exclusive Facebook group for students"
+  ],
+  "filters": ["toprated"]
+}
+,
+{
+  "id": "5",
+  "title": "Full-Stack Web Development Bootcamp",
+  "subtitle": "Become a professional full-stack web developer",
+  "description": "Master both front-end and back-end web development technologies including HTML, CSS, JavaScript, React, Node.js, and databases.",
+  "image": "/images/fullstack-bootcamp.jpg",
+  "instructor": "David Martinez",
+  "instructorTitle": "Senior Software Engineer",
+  "instructorRating": 4.8,
+  "instructorExperience": "10+ years building scalable web applications and mentoring developers.",
+  "duration": "14 weeks",
+  "format": "Project-based video lessons and live coding sessions",
+  "price": 499,
+  "discountPrice": 399,
+  "rating": 4.6,
+  "reviewCount": 950,
+  "badge": "Best Seller",
+  "category": ["Development"],
+  "subcategory": ["Web Development", "Full Stack"],
+  "level": "Beginner to Advanced",
+  "language": "English",
+  "publishedDate": "2024-01-15",
+  "enrollmentCount": 1800,
+  "studentCount": "1800+",
+  "prerequisites": ["Basic programming knowledge recommended but not required"],
+  "certificate": true,
+  "courseUrl": "https://youtu.be/fullstack-bootcamp-intro",
+  "curriculum": [
+    {
+      "title": "Front-End Basics",
+      "topics": [
+        "HTML5 fundamentals",
+        "CSS3 styling",
+        "JavaScript basics"
+      ]
+    },
+    {
+      "title": "Advanced JavaScript & React",
+      "topics": [
+        "ES6+ features",
+        "React components and hooks",
+        "State management"
+      ]
+    },
+    {
+      "title": "Back-End Development",
+      "topics": [
+        "Node.js and Express",
+        "REST APIs",
+        "Authentication and security"
+      ]
+    },
+    {
+      "title": "Databases",
+      "topics": [
+        "SQL and NoSQL databases",
+        "MongoDB with Mongoose",
+        "Data modeling"
+      ]
+    },
+    {
+      "title": "Deployment & DevOps",
+      "topics": [
+        "Deploying apps on cloud",
+        "Continuous Integration/Deployment",
+        "Basic Docker usage"
+      ]
+    }
+  ],
+  "features": [
+    "Hands-on projects",
+    "Live Q&A sessions",
+    "Community support",
+    "Career guidance",
+    "Downloadable source code"
+  ],
+  "filters": ["bestseller", "popular"]
+}
+,
+{
+  "id": "6",
+  "title": "Data Science with Python",
+  "subtitle": "Learn data analysis, visualization, and machine learning with Python",
+  "description": "Explore data science concepts and tools such as NumPy, pandas, Matplotlib, and scikit-learn to build real-world projects.",
+  "image": "/images/data-science-python.jpg",
+  "instructor": "Emily Chen",
+  "instructorTitle": "Data Scientist",
+  "instructorRating": 4.7,
+  "instructorExperience": "7 years experience in data analysis, machine learning, and AI research.",
+  "duration": "12 weeks",
+  "format": "Video tutorials, quizzes, and hands-on projects",
+  "price": 349,
+  "discountPrice": 299,
+  "rating": 4.5,
+  "reviewCount": 670,
+  "badge": "Trending",
+  "category": ["Data Science"],
+  "subcategory": ["Python", "Machine Learning"],
+  "level": "Intermediate",
+  "language": "English",
+  "publishedDate": "2024-03-10",
+  "enrollmentCount": 1100,
+  "studentCount": "1100+",
+  "prerequisites": ["Basic Python programming", "Familiarity with statistics"],
+  "certificate": true,
+  "courseUrl": "https://youtu.be/data-science-python-intro",
+  "curriculum": [
+    {
+      "title": "Python for Data Science",
+      "topics": [
+        "NumPy arrays and operations",
+        "pandas DataFrames",
+        "Data cleaning techniques"
+      ]
+    },
+    {
+      "title": "Data Visualization",
+      "topics": [
+        "Matplotlib basics",
+        "Seaborn advanced plots",
+        "Interactive visualizations"
+      ]
+    },
+    {
+      "title": "Machine Learning Basics",
+      "topics": [
+        "Supervised vs unsupervised learning",
+        "Regression and classification models",
+        "Model evaluation metrics"
+      ]
+    },
+    {
+      "title": "Advanced Machine Learning",
+      "topics": [
+        "Decision trees and random forests",
+        "Clustering algorithms",
+        "Dimensionality reduction"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "topics": [
+        "End-to-end data science project",
+        "Data preprocessing",
+        "Model building and deployment"
+      ]
+    }
+  ],
+  "features": [
+    "Hands-on coding exercises",
+    "Downloadable datasets",
+    "Quizzes and assessments",
+    "Project feedback",
+    "Access to data science community"
+  ],
+  "filters": ["trending", "intermediate"]
+}
+,
+{
+  "id": "7",
+  "title": "Full-Stack Web Development",
+  "subtitle": "Master front-end and back-end web technologies to build dynamic websites",
+  "description": "Learn HTML, CSS, JavaScript, Node.js, Express, and MongoDB to create complete web applications from scratch.",
+  "image": "/images/full-stack-web.jpg",
+  "instructor": "David Lee",
+  "instructorTitle": "Full-Stack Developer",
+  "instructorRating": 4.6,
+  "instructorExperience": "8 years in software development and web engineering.",
+  "duration": "16 weeks",
+  "format": "Video lectures, live coding sessions, and projects",
+  "price": 399,
+  "discountPrice": 349,
+  "rating": 4.4,
+  "reviewCount": 750,
+  "badge": "Best Seller",
+  "category": ["Development"],
+  "subcategory": ["Web Development", "Full-Stack"],
+  "level": "Advanced",
+  "language": "English",
+  "publishedDate": "2024-01-20",
+  "enrollmentCount": 1400,
+  "studentCount": "1400+",
+  "prerequisites": ["Basic HTML/CSS", "JavaScript fundamentals"],
+  "certificate": true,
+  "courseUrl": "https://youtu.be/full-stack-web-intro",
+  "curriculum": [
+    {
+      "title": "Front-End Basics",
+      "topics": [
+        "HTML5 structure and semantics",
+        "CSS3 styling and layout",
+        "JavaScript ES6+ features"
+      ]
+    },
+    {
+      "title": "Advanced Front-End",
+      "topics": [
+        "React.js fundamentals",
+        "State management",
+        "Routing and hooks"
+      ]
+    },
+    {
+      "title": "Back-End Development",
+      "topics": [
+        "Node.js and Express",
+        "RESTful API design",
+        "Database integration with MongoDB"
+      ]
+    },
+    {
+      "title": "Deployment & DevOps",
+      "topics": [
+        "Cloud deployment basics",
+        "CI/CD pipelines",
+        "Version control with Git"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "topics": [
+        "Build a full-stack web app",
+        "User authentication",
+        "API integration"
+      ]
+    }
+  ],
+  "features": [
+    "Hands-on coding projects",
+    "Live Q&A sessions",
+    "Code reviews",
+    "Community forum access",
+    "Certificate of completion"
+  ],
+  "filters": ["best seller", "advanced"]
+}
+,
+{
+  "id": "8",
+  "title": "Data Science with Python",
+  "subtitle": "Unlock the power of data with Python and machine learning",
+  "description": "Learn how to analyze data, build predictive models, and visualize insights using Python libraries like Pandas, NumPy, Matplotlib, and Scikit-learn.",
+  "image": "/images/data-science-python.jpg",
+  "instructor": "Sarah Thompson",
+  "instructorTitle": "Data Scientist & ML Engineer",
+  "instructorRating": 4.7,
+  "instructorExperience": "7 years working in data science and machine learning.",
+  "duration": "14 weeks",
+  "format": "Video tutorials, coding exercises, quizzes, and projects",
+  "price": 450,
+  "discountPrice": 400,
+  "rating": 4.5,
+  "reviewCount": 900,
+  "badge": "Top Rated",
+  "category": ["Data Science"],
+  "subcategory": ["Python", "Machine Learning"],
+  "level": "Intermediate",
+  "language": "English",
+  "publishedDate": "2023-12-10",
+  "enrollmentCount": 1800,
+  "studentCount": "1800+",
+  "prerequisites": ["Basic Python programming", "Statistics fundamentals"],
+  "certificate": true,
+  "courseUrl": "https://youtu.be/data-science-python-intro",
+  "curriculum": [
+    {
+      "title": "Python for Data Science",
+      "topics": [
+        "Python basics review",
+        "Data manipulation with Pandas",
+        "Numerical computing with NumPy"
+      ]
+    },
+    {
+      "title": "Data Visualization",
+      "topics": [
+        "Plotting with Matplotlib and Seaborn",
+        "Creating dashboards",
+        "Interpreting graphs"
+      ]
+    },
+    {
+      "title": "Machine Learning Fundamentals",
+      "topics": [
+        "Supervised vs unsupervised learning",
+        "Regression and classification algorithms",
+        "Model evaluation and tuning"
+      ]
+    },
+    {
+      "title": "Advanced Machine Learning",
+      "topics": [
+        "Decision trees and random forests",
+        "Support vector machines",
+        "Introduction to neural networks"
+      ]
+    },
+    {
+      "title": "Capstone Project",
+      "topics": [
+        "Data analysis project",
+        "Model building and deployment",
+        "Presentation of findings"
+      ]
+    }
+  ],
+  "features": [
+    "Real-world datasets",
+    "Step-by-step coding tutorials",
+    "Interactive quizzes",
+    "Project feedback from instructors",
+    "Certificate of completion"
+  ],
+  "filters": ["top rated", "intermediate"]
+}
+,
+{
+  "id": "9",
+  "title": "Digital Marketing Mastery",
+  "subtitle": "Become a pro at SEO, social media, and online advertising",
+  "description": "Learn the essential strategies and tools to boost your brand's online presence, run effective ad campaigns, and analyze marketing performance.",
+  "image": "/images/digital-marketing.jpg",
+  "instructor": "Mark Johnson",
+  "instructorTitle": "Digital Marketing Expert",
+  "instructorRating": 4.6,
+  "instructorExperience": "10 years of experience in digital marketing and brand strategy.",
+  "duration": "10 weeks",
+  "format": "Video lectures, case studies, live webinars, and assignments",
+  "price": 350,
+  "discountPrice": 300,
+  "rating": 4.4,
+  "reviewCount": 750,
+  "badge": "Best Seller",
+  "category": ["Marketing"],
+  "subcategory": ["Digital Marketing", "SEO", "Social Media"],
+  "level": "Beginner to Intermediate",
+  "language": "English",
+  "publishedDate": "2024-01-15",
+  "enrollmentCount": 2100,
+  "studentCount": "2100+",
+  "prerequisites": ["Basic computer skills", "Interest in marketing"],
+  "certificate": true,
+  "courseUrl": "https://youtu.be/digital-marketing-masterclass",
+  "curriculum": [
+    {
+      "title": "Introduction to Digital Marketing",
+      "topics": [
+        "Overview of digital marketing channels",
+        "Setting marketing goals",
+        "Understanding customer personas"
+      ]
+    },
+    {
+      "title": "Search Engine Optimization (SEO)",
+      "topics": [
+        "Keyword research",
+        "On-page and off-page SEO",
+        "SEO tools and analytics"
+      ]
+    },
+    {
+      "title": "Social Media Marketing",
+      "topics": [
+        "Platform selection and strategy",
+        "Content creation and scheduling",
+        "Engagement and community building"
+      ]
+    },
+    {
+      "title": "Paid Advertising",
+      "topics": [
+        "Google Ads basics",
+        "Facebook and Instagram ads",
+        "Budgeting and performance tracking"
+      ]
+    },
+    {
+      "title": "Marketing Analytics & Reporting",
+      "topics": [
+        "Tracking KPIs",
+        "Google Analytics introduction",
+        "Campaign optimization"
+      ]
+    }
+  ],
+  "features": [
+    "Live webinars with marketing pros",
+    "Practical assignments",
+    "Access to marketing tools",
+    "Certificate upon completion",
+    "Community support group"
+  ],
+  "filters": ["best seller", "beginner", "marketing"]
+}
+,
+{
+  "id": "10",
+  "title": "Holistic Wellness and Mindfulness",
+  "subtitle": "Transform your life with holistic health practices and mindfulness techniques",
+  "description": "Explore physical, mental, and emotional wellness through meditation, nutrition, and lifestyle habits that promote balance and wellbeing.",
+  "image": "/images/holistic-wellness.jpg",
+  "instructor": "Dr. Emily Carter",
+  "instructorTitle": "Certified Holistic Health Coach",
+  "instructorRating": 4.9,
+  "instructorExperience": "12 years guiding individuals in holistic health and mindfulness.",
+  "duration": "8 weeks",
+  "format": "Video lessons, guided meditations, worksheets, and live Q&A",
+  "price": 400,
+  "discountPrice": 350,
+  "rating": 4.7,
+  "reviewCount": 580,
+  "badge": "Top Rated",
+  "category": ["Health & Wellness"],
+  "subcategory": ["Mindfulness", "Nutrition", "Lifestyle"],
+  "level": "All levels",
+  "language": "English",
+  "publishedDate": "2023-11-20",
+  "enrollmentCount": 1200,
+  "studentCount": "1200+",
+  "prerequisites": ["Open mind and willingness to learn"],
+  "certificate": true,
+  "courseUrl": "https://youtu.be/holistic-wellness-course",
+  "curriculum": [
+    {
+      "title": "Introduction to Holistic Wellness",
+      "topics": [
+        "Understanding holistic health",
+        "Benefits of mindfulness",
+        "Setting wellness goals"
+      ]
+    },
+    {
+      "title": "Mindfulness Practices",
+      "topics": [
+        "Basic meditation techniques",
+        "Breathing exercises",
+        "Stress reduction methods"
+      ]
+    },
+    {
+      "title": "Nutrition Fundamentals",
+      "topics": [
+        "Balanced diet principles",
+        "Superfoods and supplements",
+        "Meal planning for wellness"
+      ]
+    },
+    {
+      "title": "Lifestyle Habits",
+      "topics": [
+        "Sleep hygiene",
+        "Physical activity routines",
+        "Creating positive daily habits"
+      ]
+    },
+    {
+      "title": "Sustaining Your Wellness Journey",
+      "topics": [
+        "Tracking progress",
+        "Community support",
+        "Adapting and evolving practices"
+      ]
+    }
+  ],
+  "features": [
+    "Guided meditations and exercises",
+    "Interactive worksheets",
+    "Live Q&A sessions",
+    "Certificate on completion",
+    "Private student community"
+  ],
+  "filters": ["top rated", "wellness", "all levels"]
+}
+,
+{
+  "id": "11",
+  "title": "Personal Finance Mastery",
+  "subtitle": "Take control of your finances with smart budgeting, investing, and wealth-building strategies",
+  "description": "Learn practical steps to manage your money, reduce debt, invest wisely, and build lasting wealth.",
+  "image": "/images/personal-finance.jpg",
+  "instructor": "Michael Bennett",
+  "instructorTitle": "Certified Financial Planner",
+  "instructorRating": 4.8,
+  "instructorExperience": "15 years of financial advisory experience",
+  "duration": "10 weeks",
+  "format": "Video lectures, quizzes, downloadable tools, and live webinars",
+  "price": 450,
+  "discountPrice": 400,
+  "rating": 4.6,
+  "reviewCount": 890,
+  "badge": "Bestseller",
+  "category": ["Finance & Investment"],
+  "subcategory": ["Budgeting", "Investing", "Wealth Building"],
+  "level": "Beginner to Intermediate",
+  "language": "English",
+  "publishedDate": "2023-10-05",
+  "enrollmentCount": 2200,
+  "studentCount": "2200+",
+  "prerequisites": ["Basic math skills"],
+  "certificate": true,
+  "courseUrl": "https://youtu.be/personal-finance-mastery",
+  "curriculum": [
+    {
+      "title": "Foundations of Personal Finance",
+      "topics": [
+        "Understanding your money mindset",
+        "Tracking income and expenses",
+        "Setting financial goals"
+      ]
+    },
+    {
+      "title": "Budgeting and Debt Management",
+      "topics": [
+        "Creating a sustainable budget",
+        "Strategies to pay off debt",
+        "Building emergency funds"
+      ]
+    },
+    {
+      "title": "Basics of Investing",
+      "topics": [
+        "Types of investments",
+        "Risk vs reward",
+        "Building a diversified portfolio"
+      ]
+    },
+    {
+      "title": "Wealth Building Strategies",
+      "topics": [
+        "Retirement planning",
+        "Tax-efficient investing",
+        "Passive income streams"
+      ]
+    },
+    {
+      "title": "Financial Planning and Review",
+      "topics": [
+        "Regular financial checkups",
+        "Adjusting plans based on life changes",
+        "Using financial tools and apps"
+      ]
+    }
+  ],
+  "features": [
+    "Downloadable budget templates",
+    "Interactive quizzes",
+    "Live webinar sessions",
+    "Certificate upon completion",
+    "Access to financial planning community"
+  ],
+  "filters": ["bestseller", "finance", "beginner", "investment"]
+},{
+  "id": "12",
+  "title": "Holistic Wellness and Mindfulness",
+  "subtitle": "Achieve balance and wellbeing through mindfulness, meditation, and healthy living habits",
+  "description": "Explore techniques to reduce stress, improve mental clarity, and enhance your physical health naturally.",
+  "image": "/images/holistic-wellness.jpg",
+  "instructor": "Sophia Martinez",
+  "instructorTitle": "Certified Mindfulness Coach",
+  "instructorRating": 4.9,
+  "instructorExperience": "10 years in wellness coaching",
+  "duration": "8 weeks",
+  "format": "Video sessions, guided meditations, journaling prompts, and live Q&A",
+  "price": 380,
+  "discountPrice": 330,
+  "rating": 4.7,
+  "reviewCount": 1040,
+  "badge": "Top Rated",
+  "category": ["Health & Wellness"],
+  "subcategory": ["Mindfulness", "Meditation", "Stress Management"],
+  "level": "All Levels",
+  "language": "English",
+  "publishedDate": "2024-02-15",
+  "enrollmentCount": 3100,
+  "studentCount": "3100+",
+  "prerequisites": [],
+  "certificate": true,
+  "courseUrl": "https://youtu.be/holistic-wellness",
+  "curriculum": [
+    {
+      "title": "Introduction to Mindfulness",
+      "topics": [
+        "What is mindfulness?",
+        "Benefits of mindfulness practice",
+        "Daily mindfulness exercises"
+      ]
+    },
+    {
+      "title": "Meditation Techniques",
+      "topics": [
+        "Breathing exercises",
+        "Body scan meditation",
+        "Guided imagery"
+      ]
+    },
+    {
+      "title": "Managing Stress and Anxiety",
+      "topics": [
+        "Recognizing stress triggers",
+        "Mindful responses to stress",
+        "Relaxation strategies"
+      ]
+    },
+    {
+      "title": "Healthy Lifestyle Habits",
+      "topics": [
+        "Nutrition basics for wellness",
+        "Incorporating movement and yoga",
+        "Sleep hygiene"
+      ]
+    },
+    {
+      "title": "Sustaining Wellness",
+      "topics": [
+        "Creating a personal wellness plan",
+        "Journaling and reflection",
+        "Community support and resources"
+      ]
+    }
+  ],
+  "features": [
+    "Guided meditation audios",
+    "Weekly live Q&A",
+    "Wellness journal templates",
+    "Certificate of completion",
+    "Private student community"
+  ],
+  "filters": ["wellness", "mindfulness", "stress-relief", "meditation"]
+}
+,{
+  "id": "14",
+  "title": "Logistics and Supply Chain Management Essentials",
+  "subtitle": "Master the fundamentals of logistics, warehousing, and supply chain operations",
+  "description": "This course provides a comprehensive overview of logistics and supply chain processes, focusing on efficiency, cost reduction, and modern technology integration.",
+  "image": "/images/logistics-essentials.jpg",
+  "instructor": "Rajesh Kumar",
+  "instructorTitle": "Supply Chain Expert & Consultant",
+  "instructorRating": 4.7,
+  "instructorExperience": "15 years in logistics and supply chain management",
+  "duration": "8 weeks",
+  "format": "Video lectures, case studies, quizzes, and real-world projects",
+  "price": 350,
+  "discountPrice": 300,
+  "rating": 4.5,
+  "reviewCount": 720,
+  "badge": "Popular",
+  "category": ["Logistics & Supply Chain"],
+  "subcategory": ["Logistics", "Supply Chain", "Warehousing"],
+  "level": "Beginner to Intermediate",
+  "language": "English",
+  "publishedDate": "2024-01-15",
+  "enrollmentCount": 1800,
+  "studentCount": "1800+",
+  "prerequisites": ["Basic knowledge of business operations"],
+  "certificate": true,
+  "courseUrl": "https://youtu.be/logistics-essentials",
+  "curriculum": [
+    {
+      "title": "Introduction to Logistics",
+      "topics": [
+        "Role of logistics in business",
+        "Types of logistics",
+        "Key logistics functions"
+      ]
+    },
+    {
+      "title": "Supply Chain Fundamentals",
+      "topics": [
+        "Supply chain design",
+        "Inventory management",
+        "Demand forecasting"
+      ]
+    },
+    {
+      "title": "Warehousing and Distribution",
+      "topics": [
+        "Warehouse layout and design",
+        "Order fulfillment",
+        "Transportation management"
+      ]
+    },
+    {
+      "title": "Technology in Logistics",
+      "topics": [
+        "Logistics software",
+        "Automation and IoT",
+        "Data analytics"
+      ]
+    },
+    {
+      "title": "Cost and Performance Management",
+      "topics": [
+        "Logistics costing",
+        "KPIs and metrics",
+        "Continuous improvement"
+      ]
+    }
+  ],
+  "features": [
+    "Supply chain simulation tools",
+    "Real-world case studies",
+    "Interactive quizzes",
+    "Discussion forums",
+    "Certificate of completion"
+  ],
+  "filters": ["logistics", "supply chain", "warehousing", "transportation"]
+}
+,{
+  "id": "15",
+  "title": "Transportation Management in Logistics",
+  "subtitle": "Learn how to optimize transportation operations for cost and efficiency",
+  "description": "This course focuses on the critical role of transportation in supply chains, covering route planning, carrier selection, and regulatory compliance to enhance logistics performance.",
+  "image": "/images/transportation-management.jpg",
+  "instructor": "Sita Sharma",
+  "instructorTitle": "Transportation Logistics Specialist",
+  "instructorRating": 4.6,
+  "instructorExperience": "12 years in transportation and logistics management",
+  "duration": "6 weeks",
+  "format": "Video lessons, case studies, assignments, and live Q&A sessions",
+  "price": 320,
+  "discountPrice": 280,
+  "rating": 4.4,
+  "reviewCount": 580,
+  "badge": "Trending",
+  "category": ["Logistics & Supply Chain"],
+  "subcategory": ["Transportation", "Fleet Management", "Logistics Operations"],
+  "level": "Intermediate",
+  "language": "English",
+  "publishedDate": "2024-03-10",
+  "enrollmentCount": 1350,
+  "studentCount": "1350+",
+  "prerequisites": ["Basic knowledge of logistics and supply chain"],
+  "certificate": true,
+  "courseUrl": "https://youtu.be/transportation-management",
+  "curriculum": [
+    {
+      "title": "Transportation Modes and Selection",
+      "topics": [
+        "Road, rail, air, and sea transport",
+        "Cost and time considerations",
+        "Choosing the right carrier"
+      ]
+    },
+    {
+      "title": "Route Planning and Optimization",
+      "topics": [
+        "Route mapping techniques",
+        "Load optimization",
+        "Use of GPS and telematics"
+      ]
+    },
+    {
+      "title": "Fleet Management",
+      "topics": [
+        "Fleet maintenance",
+        "Driver management",
+        "Safety and compliance"
+      ]
+    },
+    {
+      "title": "Regulatory and Environmental Considerations",
+      "topics": [
+        "Transport laws and regulations",
+        "Environmental impact",
+        "Sustainability in transportation"
+      ]
+    },
+    {
+      "title": "Technology and Innovation",
+      "topics": [
+        "Transportation Management Systems (TMS)",
+        "Real-time tracking",
+        "Emerging trends"
+      ]
+    }
+  ],
+  "features": [
+    "Practical case studies",
+    "Route optimization tools",
+    "Live expert Q&A",
+    "Certification exam",
+    "Downloadable resources"
+  ],
+  "filters": ["transportation", "fleet management", "logistics", "route planning"]
+}
+,{
+  "id": "16",
+  "title": "Complete Logsewa Exam Preparation - Nepal",
+  "subtitle": "Master the Logsewa exam with comprehensive lessons and practice tests",
+  "description": "This course is designed to help candidates prepare for the Nepal Logsewa (Public Service Commission) exam, covering all subjects, exam strategies, and past questions.",
+  "image": "/images/logsewa-preparation.jpg",
+  "instructor": "Ramesh Koirala",
+  "instructorTitle": "Former PSC Examiner & Trainer",
+  "instructorRating": 4.8,
+  "instructorExperience": "15 years of training Nepalese government job aspirants",
+  "duration": "10 weeks",
+  "format": "Video lectures, quizzes, mock exams, and downloadable notes",
+  "price": 400,
+  "discountPrice": 350,
+  "rating": 4.7,
+  "reviewCount": 1200,
+  "badge": "Best Seller",
+  "category": ["Exam Preparation", "Government Job"],
+  "subcategory": ["Logsewa Exam", "Nepal PSC", "Public Service Commission"],
+  "level": "Beginner to Intermediate",
+  "language": "Nepali",
+  "publishedDate": "2024-01-15",
+  "enrollmentCount": 3200,
+  "studentCount": "3200+",
+  "prerequisites": ["Basic Nepali language skills"],
+  "certificate": true,
+  "courseUrl": "https://youtu.be/logsewa-prep-nepal",
+  "curriculum": [
+    {
+      "title": "Introduction to Logsewa Exam",
+      "topics": [
+        "Exam pattern and syllabus overview",
+        "Eligibility criteria",
+        "Tips for effective preparation"
+      ]
+    },
+    {
+      "title": "Nepali Language and Grammar",
+      "topics": [
+        "Grammar rules",
+        "Essay writing techniques",
+        "Comprehension practice"
+      ]
+    },
+    {
+      "title": "General Knowledge - Nepal",
+      "topics": [
+        "History and culture",
+        "Geography",
+        "Political system",
+        "Current affairs"
+      ]
+    },
+    {
+      "title": "Mathematics and Logical Reasoning",
+      "topics": [
+        "Basic arithmetic",
+        "Algebra",
+        "Problem-solving",
+        "Logical puzzles"
+      ]
+    },
+    {
+      "title": "Mock Tests and Previous Year Questions",
+      "topics": [
+        "Timed practice exams",
+        "Detailed answer explanations",
+        "Exam day strategies"
+      ]
+    }
+  ],
+  "features": [
+    "Real past exam questions",
+    "Interactive quizzes",
+    "Progress tracking",
+    "Doubt clearing sessions",
+    "Downloadable study materials"
+  ],
+  "filters": ["logsewa", "psc", "government job", "exam prep", "nepal"]
+}
+,{
+  "id": "17",
+  "title": "Full Stack Web Development - Nepal Edition",
+  "subtitle": "Learn front-end and back-end development with practical projects",
+  "description": "This course covers everything from HTML, CSS, and JavaScript to backend development using Node.js and databases, tailored for aspiring developers in Nepal.",
+  "image": "/images/fullstack-webdev.jpg",
+  "instructor": "Sujan Shrestha",
+  "instructorTitle": "Senior Software Engineer",
+  "instructorRating": 4.9,
+  "instructorExperience": "10 years in software development and teaching",
+  "duration": "12 weeks",
+  "format": "Video tutorials, live coding sessions, project assignments",
+  "price": 600,
+  "discountPrice": 500,
+  "rating": 4.8,
+  "reviewCount": 900,
+  "badge": "Popular",
+  "category": ["Development", "Programming", "Web Development"],
+  "subcategory": ["Full Stack", "Web Design", "Node.js", "JavaScript"],
+  "level": "Beginner to Advanced",
+  "language": "English with Nepali explanations",
+  "publishedDate": "2024-03-10",
+  "enrollmentCount": 1800,
+  "studentCount": "1800+",
+  "prerequisites": ["Basic computer knowledge"],
+  "certificate": true,
+  "courseUrl": "https://youtu.be/fullstack-nepal",
+  "curriculum": [
+    {
+      "title": "Introduction to Web Development",
+      "topics": [
+        "Web technologies overview",
+        "Setting up development environment",
+        "Introduction to HTML and CSS"
+      ]
+    },
+    {
+      "title": "JavaScript Essentials",
+      "topics": [
+        "Variables and data types",
+        "Functions and events",
+        "DOM manipulation"
+      ]
+    },
+    {
+      "title": "Front-End Frameworks",
+      "topics": [
+        "Introduction to React.js",
+        "Building reusable components",
+        "State management basics"
+      ]
+    },
+    {
+      "title": "Back-End Development with Node.js",
+      "topics": [
+        "Node.js fundamentals",
+        "Express.js framework",
+        "REST API creation"
+      ]
+    },
+    {
+      "title": "Database Management",
+      "topics": [
+        "MongoDB basics",
+        "CRUD operations",
+        "Connecting database with backend"
+      ]
+    },
+    {
+      "title": "Final Project",
+      "topics": [
+        "Building a full stack web app",
+        "Deploying your application",
+        "Project presentation and review"
+      ]
+    }
+  ],
+  "features": [
+    "Hands-on coding exercises",
+    "Real-world projects",
+    "Community support",
+    "Weekly live Q&A sessions",
+    "Downloadable resources"
+  ],
+  "filters": ["development", "web", "full stack", "programming", "nepal"]
+}
+,{
+  "id": "18",
+  "title": "Android App Development for Beginners",
+  "subtitle": "Build and publish your first Android apps using Kotlin",
+  "description": "Learn to create Android applications from scratch using Kotlin, with practical examples and deployment guidance, tailored for Nepali learners.",
+  "image": "/images/android-development.jpg",
+  "instructor": "Anita Karki",
+  "instructorTitle": "Mobile Developer & Trainer",
+  "instructorRating": 4.7,
+  "instructorExperience": "7 years in mobile app development",
+  "duration": "10 weeks",
+  "format": "Video lessons, coding challenges, projects",
+  "price": 550,
+  "discountPrice": 450,
+  "rating": 4.6,
+  "reviewCount": 700,
+  "badge": "Trending",
+  "category": ["Development", "Mobile Apps", "Android"],
+  "subcategory": ["Kotlin", "App Design", "Publishing"],
+  "level": "Beginner",
+  "language": "English with Nepali explanations",
+  "publishedDate": "2024-05-01",
+  "enrollmentCount": 1400,
+  "studentCount": "1400+",
+  "prerequisites": ["Basic programming knowledge recommended"],
+  "certificate": true,
+  "courseUrl": "https://youtu.be/android-nepal",
+  "curriculum": [
+    {
+      "title": "Introduction to Android Development",
+      "topics": [
+        "Android Studio setup",
+        "Basic UI components",
+        "Understanding activities and layouts"
+      ]
+    },
+    {
+      "title": "Kotlin Basics",
+      "topics": [
+        "Variables and types",
+        "Control flow",
+        "Functions and classes"
+      ]
+    },
+    {
+      "title": "User Interface Design",
+      "topics": [
+        "Layouts and views",
+        "Material design principles",
+        "Creating responsive apps"
+      ]
+    },
+    {
+      "title": "Working with Data",
+      "topics": [
+        "Intents and navigation",
+        "Data storage options",
+        "Using APIs"
+      ]
+    },
+    {
+      "title": "App Publishing",
+      "topics": [
+        "Debugging and testing",
+        "Preparing for Google Play Store",
+        "Publishing your app"
+      ]
+    }
+  ],
+  "features": [
+    "Step-by-step tutorials",
+    "Code examples and templates",
+    "Interactive quizzes",
+    "Community forum support",
+    "Certificate on completion"
+  ],
+  "filters": ["development", "mobile", "android", "kotlin", "nepal"]
+}
+
+]
