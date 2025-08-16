@@ -1,15 +1,18 @@
 import React from "react";
 import Image from "next/image";
 
-type Course = {
-  image?: string;
-  title: string;
-  badge?: string;
-  rating: number;
-  reviewCount: number;
-  price: number;
-  discountPrice?: number;
-};
+// type Course = {
+//   image?: string;
+//   title: string;
+//   badge?: string;
+//   rating: number;
+//   reviewCount: number;
+//   price: number;
+//   discountPrice?: number;
+// };
+
+// Automatically infer type from JSON data
+type Course = typeof import("@/context/data/data.json")[number];
 
 interface CourseCardProps {
   course: Course;

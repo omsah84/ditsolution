@@ -5,6 +5,40 @@ import Link from "next/link";
 import CourseCard from "./CourseCard";
 import CoursesData from "@/context/data/data.json";
 
+import type { RefObject } from "react";
+
+interface Course {
+  id: string;
+  title: string;
+  subtitle?: string;
+  description?: string;
+  image?: string;
+  instructor?: string;
+  instructorTitle?: string;
+  instructorRating?: number;
+  instructorExperience?: string;
+  duration?: string;
+  format?: string;
+  price?: number;
+  discountPrice?: number;
+  rating?: number;
+  reviewCount?: number;
+  badge?: string;
+  category?: string[];
+  subcategory?: string[];
+  level?: string;
+  language?: string;
+  publishedDate?: string;
+  enrollmentCount?: number;
+  studentCount?: string;
+  prerequisites?: string[];
+  certificate?: boolean;
+  courseUrl?: string;
+  curriculum?: { title: string; topics: string[] }[];
+  features?: string[];
+  filters?: string[];
+}
+
 export default function CoursesList() {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [selectedSubcategory, setSelectedSubcategory] = useState("all");
@@ -20,9 +54,9 @@ export default function CoursesList() {
       label: cat,
       subcategories: Array.from(
         new Set(
-          CoursesData.filter((course) => course.category?.includes(cat)).flatMap(
-            (course) => course.subcategory || []
-          )
+          CoursesData.filter((course) =>
+            course.category?.includes(cat)
+          ).flatMap((course) => course.subcategory || [])
         )
       ),
     }));
@@ -30,7 +64,7 @@ export default function CoursesList() {
 
   // Map category id (slug) back to label for filtering
   const categoryIdToLabel = React.useMemo(() => {
-    const map = {};
+    const map: Record<string, string> = {}; // <-- FIXED TYPE
     categories.forEach(({ id, label }) => {
       map[id] = label;
     });
@@ -38,21 +72,21 @@ export default function CoursesList() {
   }, [categories]);
 
   // Refs for scroll containers
-  const categoryScrollRef = useRef(null);
-  const subcategoryScrollRef = useRef(null);
+  const categoryScrollRef = useRef<HTMLDivElement>(null);
+  const subcategoryScrollRef = useRef<HTMLDivElement>(null);
 
   // Available subcategories based on selected category
   const availableSubcategories =
     selectedCategory === "all"
       ? [...new Set(categories.flatMap((cat) => cat.subcategories))]
-      : categories.find((cat) => cat.id === selectedCategory)?.subcategories || [];
+      : categories.find((cat) => cat.id === selectedCategory)?.subcategories ||
+        [];
 
   // Convert selectedCategory id to original label for comparison
   const selectedCategoryLabel =
     selectedCategory === "all" ? "all" : categoryIdToLabel[selectedCategory];
 
-  // Filter courses by search term
-  const filterBySearch = (courses) =>
+  const filterBySearch = (courses: Course[]) =>
     courses.filter((course) =>
       course.title.toLowerCase().includes(searchTerm.toLowerCase())
     );
@@ -91,19 +125,17 @@ export default function CoursesList() {
   const handleSeeMore = () => setVisibleCount((prev) => prev + 8);
   const handleSeeLess = () => setVisibleCount((prev) => prev - 8);
 
-  // Scroll functions for arrows
-  const scrollLeft = (ref) => {
-    if (ref.current) {
-      ref.current.scrollBy({ left: -150, behavior: "smooth" });
-    }
-  };
+const scrollLeft = (ref: RefObject<HTMLDivElement | null>) => {
+  if (ref.current) {
+    ref.current.scrollBy({ left: -150, behavior: "smooth" });
+  }
+};
 
-  const scrollRight = (ref) => {
-    if (ref.current) {
-      ref.current.scrollBy({ left: 150, behavior: "smooth" });
-    }
-  };
-
+const scrollRight = (ref: RefObject<HTMLDivElement | null>) => {
+  if (ref.current) {
+    ref.current.scrollBy({ left: 150, behavior: "smooth" });
+  }
+};
   return (
     <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
       {/* Search */}
@@ -134,7 +166,11 @@ export default function CoursesList() {
             stroke="currentColor"
             strokeWidth={2}
           >
-            <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M15 19l-7-7 7-7"
+            />
           </svg>
         </button>
 
@@ -206,7 +242,11 @@ export default function CoursesList() {
             stroke="currentColor"
             strokeWidth={2}
           >
-            <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M9 5l7 7-7 7"
+            />
           </svg>
         </button>
       </nav>
@@ -227,7 +267,11 @@ export default function CoursesList() {
             stroke="currentColor"
             strokeWidth={2}
           >
-            <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M15 19l-7-7 7-7"
+            />
           </svg>
         </button>
 
@@ -286,7 +330,11 @@ export default function CoursesList() {
             stroke="currentColor"
             strokeWidth={2}
           >
-            <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M9 5l7 7-7 7"
+            />
           </svg>
         </button>
       </nav>
