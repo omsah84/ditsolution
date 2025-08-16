@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 interface Course {
@@ -65,10 +65,12 @@ export default function CoursesDeleteDashboard() {
               key={course._id}
               className="border rounded-lg p-4 shadow-sm flex items-center gap-4"
             >
-              <img
+              <Image
                 src={course.image}
                 alt={course.title}
-                className="w-20 h-20 object-cover rounded"
+                width={80} // corresponds to w-20 (20 * 4 = 80px in Tailwind)
+                height={80} // corresponds to h-20
+                className="object-cover rounded"
               />
               <div className="flex-1">
                 <h2 className="text-lg font-semibold">{course.title}</h2>

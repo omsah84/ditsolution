@@ -18,6 +18,7 @@ interface Course {
   level: string;
   format: string;
   language: string[];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   [key: string]: any;
 }
 
@@ -141,6 +142,7 @@ export default function CourseList() {
             
             <select
               value={filterStatus}
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
               onChange={(e) => setFilterStatus(e.target.value as any)}
               className="px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
             >

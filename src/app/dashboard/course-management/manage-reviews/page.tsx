@@ -144,7 +144,7 @@ export default function CoursesReviewsDashboard() {
                       <div>
                         <p className="font-bold">{r.user}</p>
                         <p className="text-xs text-gray-500">Rating: {r.rating}</p>
-                        <p className="italic">"{r.comment}"</p>
+                        <p className="italic">&quot;{r.comment}&quot;</p>
                       </div>
                       <button
                         onClick={() => handleEdit(course, i)}

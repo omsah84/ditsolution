@@ -1,11 +1,11 @@
 "use client";
-
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 interface Curriculum {
   title: string;
   topics: string[];
-  resources: string[];
+  resources: (string | File)[]; // allow both
 }
 
 interface Course {
@@ -81,51 +81,55 @@ export default function CoursesCurriculumDashboard() {
     setCurriculumForm(updated);
   };
 
- const handleSubmit = async () => {
-  if (!selectedCourse) return;
-  setLoading(true);
+  const handleSubmit = async () => {
+    if (!selectedCourse) return;
+    setLoading(true);
 
-  try {
-    const url =
-      selectedIndex !== null
-        ? `${process.env.NEXT_PUBLIC_API_URL}/courses/${selectedCourse._id}/curriculum`
-        : `${process.env.NEXT_PUBLIC_API_URL}/courses/${selectedCourse._id}/add-curriculum`;
+    try {
+      const url =
+        selectedIndex !== null
+          ? `${process.env.NEXT_PUBLIC_API_URL}/courses/${selectedCourse._id}/curriculum`
+          : `${process.env.NEXT_PUBLIC_API_URL}/courses/${selectedCourse._id}/add-curriculum`;
 
-    const method = selectedIndex !== null ? "PUT" : "POST";
+      const method = selectedIndex !== null ? "PUT" : "POST";
 
-    const formData = new FormData();
-    formData.append("title", curriculumForm.title);
-    formData.append("index", selectedIndex !== null ? String(selectedIndex) : "");
+      const formData = new FormData();
+      formData.append("title", curriculumForm.title);
+      formData.append(
+        "index",
+        selectedIndex !== null ? String(selectedIndex) : ""
+      );
 
-    curriculumForm.topics.forEach((t, i) => formData.append(`topics[${i}]`, t));
-    curriculumForm.resources.forEach((r, i) => {
-      if (r instanceof File) formData.append(`resources`, r); // append file
-      else formData.append(`resources[${i}]`, r); // keep text if any
-    });
+      curriculumForm.topics.forEach((t, i) =>
+        formData.append(`topics[${i}]`, t)
+      );
+      curriculumForm.resources.forEach((r, i) => {
+        if (r instanceof File) formData.append(`resources`, r); // append file
+        else formData.append(`resources[${i}]`, r); // keep text if any
+      });
 
-    const res = await fetch(url, {
-      method,
-      body: formData, // send FormData instead of JSON
-    });
+      const res = await fetch(url, {
+        method,
+        body: formData, // send FormData instead of JSON
+      });
 
-    if (!res.ok) throw new Error("Failed to save curriculum");
+      if (!res.ok) throw new Error("Failed to save curriculum");
 
-    const updated = await res.json();
-    setCourses((prev) =>
-      prev.map((c) => (c._id === updated._id ? updated : c))
-    );
-    setSelectedCourse(null);
-    setSelectedIndex(null);
-    setCurriculumForm(defaultCurriculum);
-    alert("✅ Curriculum saved!");
-  } catch (err) {
-    console.error(err);
-    alert("❌ Failed to save curriculum");
-  } finally {
-    setLoading(false);
-  }
-};
-
+      const updated = await res.json();
+      setCourses((prev) =>
+        prev.map((c) => (c._id === updated._id ? updated : c))
+      );
+      setSelectedCourse(null);
+      setSelectedIndex(null);
+      setCurriculumForm(defaultCurriculum);
+      alert("✅ Curriculum saved!");
+    } catch (err) {
+      console.error(err);
+      alert("❌ Failed to save curriculum");
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
     <div className="p-6 max-w-5xl mx-auto space-y-6">
@@ -138,10 +142,12 @@ export default function CoursesCurriculumDashboard() {
           {courses.map((course) => (
             <div key={course._id} className="border rounded-lg p-4 shadow-sm">
               <div className="flex items-center gap-4">
-                <img
+                <Image
                   src={course.image}
                   alt={course.title}
-                  className="w-20 h-20 object-cover rounded"
+                  width={80} // corresponds to w-20 (20 * 4 = 80px in Tailwind)
+                  height={80} // corresponds to h-20
+                  className="object-cover rounded"
                 />
                 <div className="flex-1">
                   <h2 className="text-lg font-semibold">{course.title}</h2>
@@ -170,7 +176,7 @@ export default function CoursesCurriculumDashboard() {
                           Topics: {section.topics.join(", ")}
                         </p>
                         <p className="text-xs text-gray-500">
-                          Resources: {section.resources.length-1}
+                          Resources: {section.resources.length - 1}
                         </p>
                       </div>
                       <button
@@ -225,31 +231,30 @@ export default function CoursesCurriculumDashboard() {
               </button>
             </div>
 
-           <div className="mb-2">
-  <p className="font-semibold text-sm">Resources:</p>
-  {curriculumForm.resources.map((r, idx) => (
-    <input
-      key={idx}
-      type="file"
-      accept=".pdf,.zip,.doc,.docx,.ppt,.pptx" // restrict file types
-      onChange={(e) => {
-        if (e.target.files && e.target.files[0]) {
-          const updated = { ...curriculumForm };
-          updated.resources[idx] = e.target.files[0]; // store the File object
-          setCurriculumForm(updated);
-        }
-      }}
-      className="w-full border px-2 py-1 rounded mb-1"
-    />
-  ))}
-  <button
-    onClick={() => addSubField("resources")}
-    className="px-2 py-1 bg-green-600 text-white rounded text-sm hover:bg-green-700"
-  >
-    + Add Resource
-  </button>
-</div>
-
+            <div className="mb-2">
+              <p className="font-semibold text-sm">Resources:</p>
+              {curriculumForm.resources.map((r, idx) => (
+                <input
+                  key={idx}
+                  type="file"
+                  accept=".pdf,.zip,.doc,.docx,.ppt,.pptx" // restrict file types
+                  onChange={(e) => {
+                    if (e.target.files && e.target.files[0]) {
+                      const updated = { ...curriculumForm };
+                      updated.resources[idx] = e.target.files[0]; // store the File object
+                      setCurriculumForm(updated);
+                    }
+                  }}
+                  className="w-full border px-2 py-1 rounded mb-1"
+                />
+              ))}
+              <button
+                onClick={() => addSubField("resources")}
+                className="px-2 py-1 bg-green-600 text-white rounded text-sm hover:bg-green-700"
+              >
+                + Add Resource
+              </button>
+            </div>
 
             <div className="flex justify-end gap-3 mt-4">
               <button

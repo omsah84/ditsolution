@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 interface Instructor {
   _id?: string;
@@ -126,10 +127,12 @@ export default function CoursesInstructorsDashboard() {
           {courses.map((course) => (
             <div key={course._id} className="border rounded-lg p-4 shadow-sm">
               <div className="flex items-center gap-4">
-                <img
+                <Image
                   src={course.image}
                   alt={course.title}
-                  className="w-20 h-20 object-cover rounded"
+                  width={80} // corresponds to w-20 (20 * 4 = 80px in Tailwind)
+                  height={80} // corresponds to h-20
+                  className="object-cover rounded"
                 />
                 <div className="flex-1">
                   <h2 className="text-lg font-semibold">{course.title}</h2>
@@ -156,9 +159,11 @@ export default function CoursesInstructorsDashboard() {
                       <div>
                         <p className="font-bold">{inst.name}</p>
                         <p className="text-xs text-gray-500">{inst.title}</p>
-                        <p className="text-xs text-gray-500">Rating: {inst.rating}</p>
+                        <p className="text-xs text-gray-500">
+                          Rating: {inst.rating}
+                        </p>
                         <p className="text-xs italic">{inst.experience}</p>
-                        <p className="italic">"{inst.bio}"</p>
+                        <p className="italic">&quot;{inst.bio}&quot;</p>
                       </div>
                       <button
                         onClick={() => handleEdit(course, i)}
